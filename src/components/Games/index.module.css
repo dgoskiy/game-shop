@@ -1,0 +1,35 @@
+.games_container {
+    margin: 8px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.games_item {
+    margin: 8px 0 8px 0;
+    width: 150px;
+
+}
+
+.games_item_img {
+    aspect-ratio: 5/7;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.body {
+    color: white;
+    font-weight: 500;
+}
+
+.forplay {
+    font-size: 15px;
+    color: rgb(142, 142, 142);
+}
+
+.name {
+    font-size: 17px;
+}

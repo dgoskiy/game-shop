@@ -1,0 +1,11 @@
+.sidebar {
+    background-color: rgb(73, 73, 73);
+    color: bisque;
+    width: 284px;
+}
+
+.sidebar_item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+

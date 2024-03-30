@@ -1,0 +1,519 @@
+[
+    {
+        "id": 0,
+        "gameCompany": "Xbox",
+        "name": "EA SPORTS FC™ 24 — стандартное издание для Xbox One и Xbox Series X|S",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=17273&width=640",
+        "cost": 1799,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 1,
+        "gameCompany": "Xbox",
+        "name": "Grand Theft Auto IV",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=59&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 2,
+        "gameCompany": "Xbox",
+        "name": "Red Dead Redemption 2: Ultimate Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=131&width=640",
+        "cost": 1499,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 3,
+        "gameCompany": "Xbox",
+        "name": "Grand Theft Auto V (Xbox One и Xbox Series X|S)",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=181&width=640",
+        "cost": 1499,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 4,
+        "gameCompany": "Xbox",
+        "name": "Sleeping Dogs™ Definitive Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=293&width=640",
+        "cost": 899,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 5,
+        "gameCompany": "Xbox",
+        "name": "Max Payne 3",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=981&width=640",
+        "cost": 799,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 6,
+        "gameCompany": "Xbox",
+        "name": "STAR WARS™: Battlefront Classic Collection",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=21474&width=640",
+        "cost": 799,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 7,
+        "gameCompany": "Xbox",
+        "name": "Bully: Scholarship Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=137&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 8,
+        "gameCompany": "Xbox",
+        "name": "Yakuza 0",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=1384&width=640",
+        "cost": 599,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 9,
+        "gameCompany": "Xbox",
+        "name": "TEKKEN 7 - Definitive Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=40&width=640",
+        "cost": 2949,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 10,
+        "gameCompany": "Xbox",
+        "name": "FINAL FANTASY XV ROYAL EDITION",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=427&width=640",
+        "cost": 1349,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 11,
+        "gameCompany": "Xbox",
+        "name": "Yakuza 6: The Song of Life",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=1388&width=640",
+        "cost": 599,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 12,
+        "gameCompany": "Xbox",
+        "name": "Yakuza Kiwami",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=1389&width=640",
+        "cost": 599,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 13,
+        "gameCompany": "Xbox",
+        "name": "Хогвартс. Наследие: Версия для Xbox Series X|S",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=2558&width=640",
+        "cost": 3999,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 14,
+        "gameCompany": "Xbox",
+        "name": "Комплект «Grand Theft Auto V: Premium Edition и платежная карта «Белая акула»",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=28&width=640",
+        "cost": 1049,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 15,
+        "gameCompany": "Xbox",
+        "name": "Yakuza Kiwami 2",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=1390&width=640",
+        "cost": 649,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 16,
+        "gameCompany": "Xbox",
+        "name": "STREET FIGHTER IV",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=180&width=640",
+        "cost": 799,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 17,
+        "gameCompany": "Xbox",
+        "name": "DuckTales: Remastered",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=297&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 18,
+        "gameCompany": "Xbox",
+        "name": "Red Dead Redemption",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=74&width=640",
+        "cost": 799,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 19,
+        "gameCompany": "Xbox",
+        "name": "Midnight Club: Los Angeles Complete",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=979&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 20,
+        "gameCompany": "Xbox",
+        "name": "Call of Duty®: WWII - Gold Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=67&width=640",
+        "cost": 1849,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 21,
+        "gameCompany": "Xbox",
+        "name": "Shadow Warrior 2",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=2616&width=640",
+        "cost": 549,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 22,
+        "gameCompany": "Xbox",
+        "name": "Mortal Kombat 11",
+        "forplay": "Игра",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=893&width=640",
+        "cost": 1999,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "PC",
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 23,
+        "gameCompany": "Xbox",
+        "name": "Grand Theft Auto Online",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=200&width=640",
+        "cost": 1099,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 24,
+        "gameCompany": "Xbox",
+        "name": "Katana ZERO",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=947&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 25,
+        "gameCompany": "Xbox",
+        "name": "METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=446&width=640",
+        "cost": 1199,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 26,
+        "gameCompany": "Xbox",
+        "name": "Serious Sam Collection",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=365&width=640",
+        "cost": 649,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 27,
+        "gameCompany": "Xbox",
+        "name": "Hotline Miami",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=17965&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 28,
+        "gameCompany": "Xbox",
+        "name": "Dragon's Dogma: Dark Arisen",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=120&width=640",
+        "cost": 2899,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 29,
+        "gameCompany": "Xbox",
+        "name": "Hotline Miami 2: Wrong Number",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=17966&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 30,
+        "gameCompany": "Xbox",
+        "name": "Mafia III: Definitive Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=49&width=640",
+        "cost": 1499,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 31,
+        "gameCompany": "Xbox",
+        "name": "BATMAN™: Рыцарь Аркхема",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=972&width=640",
+        "cost": 1049,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 32,
+        "gameCompany": "Xbox",
+        "name": "Ruiner",
+        "forplay": "Игра",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=2636&width=640",
+        "cost": 549,
+        "gameSub": "",
+        "gameConsole": [
+            "PC",
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 33,
+        "gameCompany": "Xbox",
+        "name": "Far Cry® 4",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=867&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 34,
+        "gameCompany": "Xbox",
+        "name": "Bayonetta",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=744&width=640",
+        "cost": 649,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 35,
+        "gameCompany": "Xbox",
+        "name": "Hellblade: Senua's Sacrifice",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=1311&width=640",
+        "cost": 1049,
+        "gameSub": "Входит в Game Pass",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 36,
+        "gameCompany": "Xbox",
+        "name": "Far Cry Primal - Apex Edition",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=44&width=640",
+        "cost": 649,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 37,
+        "gameCompany": "Xbox",
+        "name": "Call of Duty®: Black Ops III - Zombies Deluxe",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=154&width=640",
+        "cost": 2449,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 38,
+        "gameCompany": "Xbox",
+        "name": "Red Dead Redemption 2",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=34&width=640",
+        "cost": 2449,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox One",
+            "Xbox X | S"
+        ]
+    },
+    {
+        "id": 39,
+        "gameCompany": "Xbox",
+        "name": "Serious Sam 4",
+        "forplay": "Игра для Xbox",
+        "img": "https://cdn2.ddostup.ru/shop/get-image/?img_id=600&width=640",
+        "cost": 599,
+        "gameSub": "",
+        "gameConsole": [
+            "Xbox X | S"
+        ]
+    }
+]
