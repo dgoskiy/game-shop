@@ -39,3 +39,19 @@
 	font-size: 16px;
 	color: #fff;
 }
+
+.plat {
+	background-color: rgb(73, 73, 73);
+	color: bisque;
+	width: 284px;
+}
+
+.plat_item:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+}
+
+.active {
+	background-color: rgba(152, 152, 152, 0.2);
+	cursor: pointer;
+}
