@@ -16,6 +16,7 @@ const Games = (props) => {
   React.useEffect(() => {
     inView && dispatch(setLimitView(10))
   }, [inView])
+  //2
   return (
     <div className='w-100'>
       <input onChange={testDebounce} type="text" />
