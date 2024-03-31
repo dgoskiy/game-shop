@@ -35,8 +35,6 @@ export const filterSlice = createSlice({
       console.log(state.gplat);
     },
     setLimitView: (state, action) => {
-      // if (action.payload) state.limitView += 10
-      // console.log(action.payload)
       state.limitView += action.payload
       console.log(state.limitView)
     },

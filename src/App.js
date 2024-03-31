@@ -5,8 +5,12 @@ import Sort from './components/Sort'
 import s from './css/App.module.css'
 import { useSelector } from 'react-redux'
 import axios from 'axios'
+import qs from "qs"
+import { useNavigate } from 'react-router-dom'
+
 
 function App() {
+  // const navigate = useNavigate();
   const filter = useSelector((state) => state.filter)
   const [items, setItems] = React.useState([]);
 
@@ -16,6 +20,20 @@ function App() {
         setItems(res.data);
       })
   }, [filter])
+
+  React.useEffect(() => {
+    const queryString = qs.stringify({
+      sortBy: filter.sortProperty,
+      order: filter.order,
+      gameCompany: filter.gcomp,
+      gamePlatform: filter.gplat,
+      page: 1,
+      limit: filter.limitView
+    })
+    console.log(queryString)
+    // navigate(`?${queryString}`)
+  }, [filter])
+
   return (
     <div className='d-flex'>
       <Sidebar data={items} />
