@@ -6,7 +6,7 @@ const initialState = {
   order: "",
   gcomp: "PlayStation",
   gplat: [],
-  limitView: 0
+  limitView: 10
 }
 
 export const filterSlice = createSlice({
@@ -35,8 +35,9 @@ export const filterSlice = createSlice({
     },
     setLimitView: (state, action) => {
       // if (action.payload) state.limitView += 10
-      console.log(action.payload)
-      // state.gcomp = action.payload
+      // console.log(action.payload)
+      state.limitView += action.payload
+      console.log(state.limitView)
     },
 
   },
