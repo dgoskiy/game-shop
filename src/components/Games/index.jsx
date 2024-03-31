@@ -1,21 +1,24 @@
 import React from 'react'
 import s from './index.module.css';
 import { useDispatch } from 'react-redux'
-import { setLimitView } from '../../redux/store/filterSlice'
+import { setLimitView, setSearch } from '../../redux/store/filterSlice'
+import debounce from 'lodash.debounce';
 
 import { useInView } from 'react-intersection-observer';
 const Games = (props) => {
+  const dispatch = useDispatch()
   const { ref, inView } = useInView({
     treshold: 0.5,
   })
-  const dispatch = useDispatch()
-
+  const testDebounce = debounce((event) => {
+    dispatch(setSearch(event.target.value))
+  }, 250)
   React.useEffect(() => {
     inView && dispatch(setLimitView(10))
   }, [inView])
   return (
     <div className='w-100'>
-      <input type="text" />
+      <input onChange={testDebounce} type="text" />
 
       <div className={s.games_container}>
         {props.data.map(item => (

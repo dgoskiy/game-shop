@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   id: 0,
+  search: "",
   sortProperty: "",
   order: "",
   gcomp: "PlayStation",
@@ -39,10 +40,13 @@ export const filterSlice = createSlice({
       state.limitView += action.payload
       console.log(state.limitView)
     },
+    setSearch: (state, action) => {
+      state.search = action.payload
+    },
 
   },
 })
 
-export const { sortByAmount, selectGcomp, selectGplat, setLimitView } = filterSlice.actions
+export const { sortByAmount, selectGcomp, selectGplat, setLimitView, setSearch } = filterSlice.actions
 
 export default filterSlice.reducer
