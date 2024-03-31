@@ -1,11 +1,11 @@
 import React from 'react'
 import s from './index.module.css'
-import { useSelector, useDispatch } from 'react-redux'
-import { selectGcomp, selectGplat } from '../../redux/store/filterSlice'
+import { /* useSelector, */ useDispatch } from 'react-redux'
+import { selectGcomp, /* selectGplat */ } from '../../redux/store/filterSlice'
 
 
 const Sidebar = () => {
-    const gcomp = useSelector(state => state.filter.gcomp)
+    // const gcomp = useSelector(state => state.filter.gcomp)
     const dispatch = useDispatch()
     // const unique = [...new Set(data.map(obj => obj.gameCompany))]
     const unique = ['PlayStation', 'Xbox']

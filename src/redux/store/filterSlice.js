@@ -5,7 +5,8 @@ const initialState = {
   sortProperty: "",
   order: "",
   gcomp: "PlayStation",
-  gplat: []
+  gplat: [],
+  limitView: 0
 }
 
 export const filterSlice = createSlice({
@@ -31,11 +32,16 @@ export const filterSlice = createSlice({
       }
       state.gplat = Array.from(uniqueElements);
       console.log(state.gplat);
-    }
+    },
+    setLimitView: (state, action) => {
+      // if (action.payload) state.limitView += 10
+      console.log(action.payload)
+      // state.gcomp = action.payload
+    },
 
   },
 })
 
-export const { sortByAmount, selectGcomp, selectGplat } = filterSlice.actions
+export const { sortByAmount, selectGcomp, selectGplat, setLimitView } = filterSlice.actions
 
 export default filterSlice.reducer
