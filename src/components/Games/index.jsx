@@ -12,7 +12,7 @@ const Games = (props) => {
   })
   const testDebounce = debounce((event) => {
     dispatch(setSearch(event.target.value))
-  }, 250)
+  }, 1000)
   React.useEffect(() => {
     inView && dispatch(setLimitView(10))
   }, [inView])

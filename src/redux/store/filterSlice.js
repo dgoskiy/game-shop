@@ -7,7 +7,9 @@ const initialState = {
   order: "",
   gcomp: "PlayStation",
   gplat: [],
-  limitView: 10
+  limitView: 10,
+  filters: '',
+  filt: {}
 }
 
 export const filterSlice = createSlice({
@@ -41,10 +43,14 @@ export const filterSlice = createSlice({
     setSearch: (state, action) => {
       state.search = action.payload
     },
+    setFilters: (state, action) => {
+      state.filt = action.payload
+      console.log(state.filt)
+    },
 
   },
 })
 
-export const { sortByAmount, selectGcomp, selectGplat, setLimitView, setSearch } = filterSlice.actions
+export const { sortByAmount, selectGcomp, selectGplat, setLimitView, setSearch, setFilters } = filterSlice.actions
 
 export default filterSlice.reducer

@@ -1,0 +1,1286 @@
+[
+  {
+    "id": 0,
+    "gameCompany": "Xbox",
+    "name": "EA SPORTS FC™ 24 — стандартное издание для Xbox One и Xbox Series X|S",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/75x75_RS/ce/94/ff/ce94ff0a20c3d3eaed4815956ac5cc9b.jpg",
+    "cost": 1799,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 1,
+    "gameCompany": "Xbox",
+    "name": "Grand Theft Auto IV",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/bd/71/73/bd7173149e4ce14f02578d32a54661c7.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 2,
+    "gameCompany": "Xbox",
+    "name": "Red Dead Redemption 2: Ultimate Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/57/3c/f9/573cf9c1f9f60c61b3f1d283a511b548.jpg",
+    "cost": 1499,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 3,
+    "gameCompany": "Xbox",
+    "name": "Grand Theft Auto V (Xbox One и Xbox Series X|S)",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/1d/d2/79/1dd27912a6c57f3274d104889cc53dbf.jpg",
+    "cost": 1499,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 4,
+    "gameCompany": "Xbox",
+    "name": "Sleeping Dogs™ Definitive Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/7d/cc/69/7dcc6962adbdf2b105f68245429df6ef.jpg",
+    "cost": 899,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 5,
+    "gameCompany": "Xbox",
+    "name": "Max Payne 3",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/1a/0a/54/1a0a547feb2af85475b97d578223f2f7.jpg",
+    "cost": 799,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 6,
+    "gameCompany": "Xbox",
+    "name": "STAR WARS™: Battlefront Classic Collection",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/44/d1/30/44d1303f98946bf674ad6d7415940aed.jpg",
+    "cost": 799,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 7,
+    "gameCompany": "Xbox",
+    "name": "Bully: Scholarship Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/84/db/24/84db24cb7353b32cb45775fefc71e8f2.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 8,
+    "gameCompany": "Xbox",
+    "name": "Yakuza 0",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/474x/58/78/e8/5878e8802372d0167c61d542c82dda36.jpg",
+    "cost": 599,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 9,
+    "gameCompany": "Xbox",
+    "name": "TEKKEN 7 - Definitive Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/5c/5a/7e/5c5a7e1fc104633a084c33bdef593995.jpg",
+    "cost": 2949,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 10,
+    "gameCompany": "Xbox",
+    "name": "FINAL FANTASY XV ROYAL EDITION",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/77/ac/dd/77acdd15b19b3060b148676c037c4380.jpg",
+    "cost": 1349,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 11,
+    "gameCompany": "Xbox",
+    "name": "Yakuza 6: The Song of Life",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/25/25/2c/25252ce16e3c3325fefc899375d849a2.jpg",
+    "cost": 599,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 12,
+    "gameCompany": "Xbox",
+    "name": "Yakuza Kiwami",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/ca/a5/99/caa599a92585b71dcdff1d70250b7cfa.jpg",
+    "cost": 599,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 13,
+    "gameCompany": "Xbox",
+    "name": "Хогвартс. Наследие: Версия для Xbox Series X|S",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/4a/8d/b1/4a8db19ff1246d2b8df84ce8018aeedd.jpg",
+    "cost": 3999,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 14,
+    "gameCompany": "Xbox",
+    "name": "Комплект «Grand Theft Auto V: Premium Edition и платежная карта «Белая акула»",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/474x/d8/5b/77/d85b77689030b473e502b8c991d91ec2.jpg",
+    "cost": 1049,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 15,
+    "gameCompany": "Xbox",
+    "name": "Yakuza Kiwami 2",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/474x/fb/2c/fe/fb2cfea3e7ed8774dd7b193193613603.jpg",
+    "cost": 649,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 16,
+    "gameCompany": "Xbox",
+    "name": "STREET FIGHTER IV",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/7d/13/fe/7d13fe82151373444c3e5a9c30f8db6c.jpg",
+    "cost": 799,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 17,
+    "gameCompany": "Xbox",
+    "name": "DuckTales: Remastered",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/e2/63/7e/e2637ee8b957515583b6b06e2384559b.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 18,
+    "gameCompany": "Xbox",
+    "name": "Red Dead Redemption",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/d1/d7/0e/d1d70e68aca02ea85c67bc8810719d4c.jpg",
+    "cost": 799,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 19,
+    "gameCompany": "Xbox",
+    "name": "Midnight Club: Los Angeles Complete",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/f1/0e/fd/f10efdb85a9ad9b5f27864848970078b.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 20,
+    "gameCompany": "Xbox",
+    "name": "Call of Duty®: WWII - Gold Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/88/13/ca/8813ca11e489481ba7ef04dce998b6fe.jpg",
+    "cost": 1849,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 21,
+    "gameCompany": "Xbox",
+    "name": "Shadow Warrior 2",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/8e/6b/30/8e6b300c023db38b79e38375ef01447b.jpg",
+    "cost": 549,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 22,
+    "gameCompany": "Xbox",
+    "name": "Mortal Kombat 11",
+    "forplay": "Игра",
+    "img": "https://i.pinimg.com/236x/20/d7/9c/20d79ce1c746177becbba99f28a83ffb.jpg",
+    "cost": 1999,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "PC",
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 23,
+    "gameCompany": "Xbox",
+    "name": "Grand Theft Auto Online",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/c1/2e/b3/c12eb3b2df41a0546fd2dfbdbcbf0bfb.jpg",
+    "cost": 1099,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 24,
+    "gameCompany": "Xbox",
+    "name": "Katana ZERO",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/b9/d3/aa/b9d3aa9d5a8fed588a2defffbf5db1b9.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 25,
+    "gameCompany": "Xbox",
+    "name": "METAL GEAR SOLID V: THE DEFINITIVE EXPERIENCE",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/b7/05/e5/b705e5833bd4be86586149318fdd3390.jpg",
+    "cost": 1199,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 26,
+    "gameCompany": "Xbox",
+    "name": "Serious Sam Collection",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/474x/01/5f/1f/015f1f79c281b3afc594da676c3d754b.jpg",
+    "cost": 649,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 27,
+    "gameCompany": "Xbox",
+    "name": "Hotline Miami",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/38/55/61/38556152759ac64a09391d3758a1ef64.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 28,
+    "gameCompany": "Xbox",
+    "name": "Dragon's Dogma: Dark Arisen",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/f8/6f/fc/f86ffc78a7f28befddd587f37d4bf8c1.jpg",
+    "cost": 2899,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 29,
+    "gameCompany": "Xbox",
+    "name": "Hotline Miami 2: Wrong Number",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/02/da/e3/02dae319e4e440f31bd58f20bd17274f.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 30,
+    "gameCompany": "Xbox",
+    "name": "Mafia III: Definitive Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/15/27/40/15274059c245a8a47f5a111a64f371a0.jpg",
+    "cost": 1499,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 31,
+    "gameCompany": "Xbox",
+    "name": "BATMAN™: Рыцарь Аркхема",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/0c/8e/f1/0c8ef19fbd7a75ce058d7e66dd11f59e.jpg",
+    "cost": 1049,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 32,
+    "gameCompany": "Xbox",
+    "name": "Ruiner",
+    "forplay": "Игра",
+    "img": "https://i.pinimg.com/474x/f0/3a/6f/f03a6f37f80c087d3a0dfdec97996f1c.jpg",
+    "cost": 549,
+    "gameSub": "",
+    "gamePlatform": [
+      "PC",
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 33,
+    "gameCompany": "Xbox",
+    "name": "Far Cry® 4",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/ea/c6/ff/eac6ff3506fbb7447970b235350bafde.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 34,
+    "gameCompany": "Xbox",
+    "name": "Bayonetta",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/e3/e3/3b/e3e33b1a7bbc28860f21a019db9bcd51.jpg",
+    "cost": 649,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 35,
+    "gameCompany": "Xbox",
+    "name": "Hellblade: Senua's Sacrifice",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/15/4d/cf/154dcfad23e4764281cbf00d0a408866.jpg",
+    "cost": 1049,
+    "gameSub": "Входит в Game Pass",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 36,
+    "gameCompany": "Xbox",
+    "name": "Far Cry Primal - Apex Edition",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/474x/ce/11/61/ce11618b6523ec23456129da74fac263.jpg",
+    "cost": 649,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 37,
+    "gameCompany": "Xbox",
+    "name": "Call of Duty®: Black Ops III - Zombies Deluxe",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/b3/c0/57/b3c05704c252e785e271c21e7da4c211.jpg",
+    "cost": 2449,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 38,
+    "gameCompany": "Xbox",
+    "name": "Red Dead Redemption 2",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/474x/ae/e5/cc/aee5cc370fb895946d7b85494541e118.jpg",
+    "cost": 2449,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox One",
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 39,
+    "gameCompany": "Xbox",
+    "name": "Serious Sam 4",
+    "forplay": "Игра для Xbox",
+    "img": "https://i.pinimg.com/236x/90/f4/c8/90f4c804f06a0cd24768268b1621b34f.jpg",
+    "cost": 599,
+    "gameSub": "",
+    "gamePlatform": [
+      "Xbox X | S"
+    ]
+  },
+  {
+    "id": 40,
+    "gameCompany": "PlayStation",
+    "name": "Rayman Legends",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/d5/b1/47/d5b1476f29d85861a3adb77d3e8506a3.jpg",
+    "cost": 1049,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 41,
+    "gameCompany": "PlayStation",
+    "name": "EA SPORTS FC™ 24 — стандартное издание для PS4 и PS5",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/70/2a/64/702a645c175720c1089a33cf5d438651.jpg",
+    "cost": 1799,
+    "gameSub": "Входит в EA Play",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 42,
+    "gameCompany": "PlayStation",
+    "name": "Marvel’s Человек-Паук 2",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/71/6b/5b/716b5b72fb906f18cbdb90d985e0300d.jpg",
+    "cost": 8349,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS5"
+    ]
+  },
+  {
+    "id": 43,
+    "gameCompany": "PlayStation",
+    "name": "MONOPOLY PLUS",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/f3/57/8f/f3578f8734872da4732919145296b426.jpg",
+    "cost": 2099,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 44,
+    "gameCompany": "PlayStation",
+    "name": "EA SPORTS FC™ 24 — издание Ultimate для PS4™ и PS5™",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/b4/90/13/b49013601932dd7084734942857b4917.jpg",
+    "cost": 10499,
+    "gameSub": "Входит в EA Play",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 45,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® Истоки",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/57/15/88/571588c678bcb16c4c1b3f99e17742a2.jpg",
+    "cost": 1999,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 46,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® Одиссея – DELUXE EDITION",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/0b/6a/ae/0b6aaeaa9535c51d8e7c8429a83cbc33.jpg",
+    "cost": 2649,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 47,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® Одиссея – GOLD EDITION",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/53/2e/c5/532ec52e810fa151286a4ee7c6e8be2f.jpg",
+    "cost": 3099,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 48,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® Одиссея – ULTIMATE EDITION",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/474x/f5/d4/e9/f5d4e9bf3a7058aea8d86fb926b1c29e.jpg",
+    "cost": 1349,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 49,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® Одиссея",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/1e/95/50/1e9550911357068497e4b9e62c3053c1.jpg",
+    "cost": 1149,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 50,
+    "gameCompany": "PlayStation",
+    "name": "Sifu",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/e0/03/d8/e003d8d42f1572bba63ec062ecc60de0.jpg",
+    "cost": 5199,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 51,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's Ghost Recon® Breakpoint",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/81/6d/6e/816d6e76a20737c919de22693642abef.jpg",
+    "cost": 2449,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 52,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's Ghost Recon® Breakpoint Deluxe Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/e2/df/81/e2df812fd19408b45aead70908894dd9.jpg",
+    "cost": 1099,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 53,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's Ghost Recon® Breakpoint Gold Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/474x/76/a3/80/76a3806bcad4e136cf68e7744ae279ac.jpg",
+    "cost": 1399,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 54,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's Ghost Recon® Breakpoint Ultimate Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/27/88/cc/2788cc1960ea3f5ced60c0fd7918f646.jpg",
+    "cost": 12249,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 55,
+    "gameCompany": "PlayStation",
+    "name": "Grand Theft Auto V (PlayStation®5)",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/c0/eb/bb/c0ebbb79792429b60595f6d6eb4ca3c2.jpg",
+    "cost": 2349,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS5"
+    ]
+  },
+  {
+    "id": 56,
+    "gameCompany": "PlayStation",
+    "name": "Trackmania® Turbo",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/d8/ac/40/d8ac4061d9e813d0fdfff8c5e474858f.jpg",
+    "cost": 4349,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 57,
+    "gameCompany": "PlayStation",
+    "name": "Valiant Hearts: The Great War",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/1f/bd/bc/1fbdbcdf743a96d78d1c44d8371a7550.jpg",
+    "cost": 2099,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 58,
+    "gameCompany": "PlayStation",
+    "name": "Far Cry®3 Classic Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/5b/30/a0/5b30a0cdea95e97630b03661bc0dafe5.jpg",
+    "cost": 1699,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 59,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed Вальгалла PS4 & PS5",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/9f/15/d4/9f15d48ac25414aa72323b2fb6512286.jpg",
+    "cost": 1149,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 60,
+    "gameCompany": "PlayStation",
+    "name": "Far Cry Primal",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/28/e8/38/28e838df524d5613db16c18b5d8f5477.jpg",
+    "cost": 4349,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 61,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's The Division™ Gold Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/45/1d/fe/451dfe0caa6741ed600426dc950395ad.jpg",
+    "cost": 4799,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 62,
+    "gameCompany": "PlayStation",
+    "name": "TOM CLANCY'S THE DIVISION",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/cf/5b/b4/cf5bb41d9d534de3e5f98be0cb09a01c.jpg",
+    "cost": 1149,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 63,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed 4 Black Flag",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/48/3d/4d/483d4dca310388f77a8ddca52869786f.jpg",
+    "cost": 3399,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 64,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® IV Black Flag™ - Standard Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/1f/6b/00/1f6b0083c6ec362295b84692e8e55a76.jpg",
+    "cost": 2549,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 65,
+    "gameCompany": "PlayStation",
+    "name": "The Division 2 –  Standard Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/474x/78/5d/60/785d603fe820123f413cd77d6deed122.jpg",
+    "cost": 1149,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 66,
+    "gameCompany": "PlayStation",
+    "name": "Цифровое расширенное издание God of War™",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/04/d1/eb/04d1eb589b95f44aaae9e710419c0bc0.jpg",
+    "cost": 3399,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 67,
+    "gameCompany": "PlayStation",
+    "name": "Assassin’s Creed® Единство",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/f8/d2/45/f8d2456be6b9a0cc5da7d8866b67ca5e.jpg",
+    "cost": 4349,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 68,
+    "gameCompany": "PlayStation",
+    "name": "Assassin’s Creed® The Ezio Collection",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/d6/2d/42/d62d4243642f520c88d9189b241e00c6.jpg",
+    "cost": 5199,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 69,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® III Remastered",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/2b/52/4e/2b524e022bc69442f59835396791c22d.jpg",
+    "cost": 4799,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 70,
+    "gameCompany": "PlayStation",
+    "name": "МОНОПОЛИЯ® Переполох",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/0a/3f/2a/0a3f2acbc5aebe2355e8a44b3ecbf761.jpg",
+    "cost": 1699,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 71,
+    "gameCompany": "PlayStation",
+    "name": "MONOPOLY PLUS + MONOPOLY Madness",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/62/54/ee/6254ee55c4fae585cbeed516627f5e12.jpg",
+    "cost": 2399,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 72,
+    "gameCompany": "PlayStation",
+    "name": "MONOPOLY® MADNESS DEMO",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/83/d5/d1/83d5d18387164da8d6b6051d9f0fa3ce.jpg",
+    "cost": null,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 73,
+    "gameCompany": "PlayStation",
+    "name": "FAR CRY®6 Standard Edition PS4 & PS5",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/f9/ac/0e/f9ac0ea1c38784488cd351239d28ce7c.jpg",
+    "cost": 2199,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 74,
+    "gameCompany": "PlayStation",
+    "name": "Издание F1® 23 Champions",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/fb/79/c1/fb79c19e38ca928c055591dc0fba6e17.jpg",
+    "cost": 6849,
+    "gameSub": "Входит в EA Play",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 75,
+    "gameCompany": "PlayStation",
+    "name": "Red Dead Redemption 2: Ultimate Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/a2/f5/33/a2f533681b61b818ebb2eb864c444c26.jpg",
+    "cost": 3149,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 77,
+    "gameCompany": "PlayStation",
+    "name": "The Telltale Batman Shadows Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/03/44/b8/0344b8c45cce9e9c0e25229d02c22f1e.jpg",
+    "cost": 3399,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 78,
+    "gameCompany": "PlayStation",
+    "name": "Batman - The Telltale Series - Season Pass",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/39/f2/27/39f227af0c893fdd495f079e5f1b748c.jpg",
+    "cost": 2099,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 79,
+    "gameCompany": "PlayStation",
+    "name": "Fishing Planet: First Steps Float Bundle",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/48/ac/69/48ac694f651fdd8f824ae7bd302d8961.jpg",
+    "cost": null,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 80,
+    "gameCompany": "PlayStation",
+    "name": "Fishing Planet Anniversary Pack",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/be/64/65/be646552ff44a6bbe9ba8c3fb9b78bbd.jpg",
+    "cost": 2099,
+    "gameSub": "",
+    "gamePlatform": []
+  },
+  {
+    "id": 81,
+    "gameCompany": "PlayStation",
+    "name": "Fishing Planet: Gars&Glory Pack",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/55/27/44/55274490c1af86ef443272c893596458.jpg",
+    "cost": 2099,
+    "gameSub": "",
+    "gamePlatform": []
+  },
+  {
+    "id": 82,
+    "gameCompany": "PlayStation",
+    "name": "Fishing Planet: Golden Dragon Pack",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/5c/b8/1e/5cb81e749521adbcd37ab313f96bc6b2.jpg",
+    "cost": 2999,
+    "gameSub": "",
+    "gamePlatform": []
+  },
+  {
+    "id": 83,
+    "gameCompany": "PlayStation",
+    "name": "Fishing Planet: Lucky Start Bundle",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/9d/2f/d0/9d2fd02cd49cc181a5b19b02bc2b81cf.jpg",
+    "cost": 1699,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 84,
+    "gameCompany": "PlayStation",
+    "name": "Fishing Planet 2.0: Free Starter Bundle",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/29/ea/14/29ea1419d7039c2635770a7e94d5129f.jpg",
+    "cost": null,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 85,
+    "gameCompany": "PlayStation",
+    "name": "Tomb Raider: Definitive Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/22/65/f5/2265f53402c148783a02060889689db9.jpg",
+    "cost": 2549,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 86,
+    "gameCompany": "PlayStation",
+    "name": "Цифровое расширенное издание Marvel’s Человек-Паук 2",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/7c/85/c9/7c85c9051f77cf23f16fde8d482a039a.jpg",
+    "cost": 6849,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS5"
+    ]
+  },
+  {
+    "id": 87,
+    "gameCompany": "PlayStation",
+    "name": "Far Cry® New Dawn",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/e3/e3/3b/e3e33b0acf0bcbe9768a707c8c0e11e4.jpg",
+    "cost": 1749,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 88,
+    "gameCompany": "PlayStation",
+    "name": "Издание NBA 2K24 Baller Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/ca/7c/aa/ca7caa85fee1bead8e02a987d1ef483a.jpg",
+    "cost": 6999,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 89,
+    "gameCompany": "PlayStation",
+    "name": "Южный Парк™: Палка Истины™",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/474x/9a/82/4e/9a824ec5349105c7bd29826916d44a0c.jpg",
+    "cost": 1699,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 90,
+    "gameCompany": "PlayStation",
+    "name": "Trials Fusion",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/0f/2e/bb/0f2ebb316e497af93d879168d52c9937.jpg",
+    "cost": 2549,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 91,
+    "gameCompany": "PlayStation",
+    "name": "Издание NBA 2K24 Black Mamba Edition",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/55/1e/b5/551eb51e57a1234222c19433a178b521.jpg",
+    "cost": 8049,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 92,
+    "gameCompany": "PlayStation",
+    "name": "Trials® Rising",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/70/2a/cf/702acfd702d85c4b35fa5a2c6dfb3afd.jpg",
+    "cost": 2999,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 93,
+    "gameCompany": "PlayStation",
+    "name": "Legendary Fishing",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/e5/09/4f/e5094ff4ebdd52cd8907e85765ee0a01.jpg",
+    "cost": 1349,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 94,
+    "gameCompany": "PlayStation",
+    "name": "Издание 2K24 Kobe Bryant Edition для PS5™",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/96/14/97/9614973faa35e03039cba2c6e51ce94e.jpg",
+    "cost": 6149,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS5"
+    ]
+  },
+  {
+    "id": 95,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's Rainbow Six® Эвакуация: набор 'Единый'",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/a8/47/7b/a8477b45fadec75d0f67a3c69faf0477.jpg",
+    "cost": 6999,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 96,
+    "gameCompany": "PlayStation",
+    "name": "Super Neptunia™ RPG",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/19/f0/1c/19f01c41f80f484f8491d18fee266d98.jpg",
+    "cost": 3399,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 97,
+    "gameCompany": "PlayStation",
+    "name": "Assassin's Creed® Изгой. Обновленная версия",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/4f/3c/d4/4f3cd4d89e1d7615c1a640237e24bbe1.jpg",
+    "cost": 4349,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 98,
+    "gameCompany": "PlayStation",
+    "name": "Tom Clancy's Rainbow Six® Эвакуация: набор 'Единый'",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/1b/73/09/1b730915bbd75b4bb0b336c2b022ec0f.jpg",
+    "cost": 6999,
+    "gameSub": "",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 99,
+    "gameCompany": "PlayStation",
+    "name": "LEGO® Суперзлодеи DC",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/38/d0/e8/38d0e8da6ee0688a67542dce821793c8.jpg",
+    "cost": 3399,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  },
+  {
+    "id": 100,
+    "gameCompany": "PlayStation",
+    "name": "Rabbids Invasion: Интерактивный мультсериал",
+    "forplay": "Игра для PlayStation",
+    "img": "https://i.pinimg.com/236x/5a/e5/6c/5ae56c43ef813563eddce4369069efba.jpg",
+    "cost": 2549,
+    "gameSub": "Входит в Extra",
+    "gamePlatform": [
+      "PS4",
+      "PS5"
+    ]
+  }
+]

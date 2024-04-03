@@ -3,23 +3,30 @@ import Games from './components/Games'
 import Sidebar from './components/Sidebar'
 import Sort from './components/Sort'
 import s from './css/App.module.css'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
 import qs from "qs"
+import { setFilters } from './redux/store/filterSlice'
 import { useNavigate } from 'react-router-dom'
 
 
 function App() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const filter = useSelector((state) => state.filter)
+  const filt = useSelector((state) => state.filter.filt)
   const [items, setItems] = React.useState([]);
 
   React.useEffect(() => {
     if (window.location.search) {
       const params = ((qs.parse(window.location.search.substring(1))))
-      console.log(params)
+      const ar = JSON.stringify(params)
+      dispatch(
+        setFilters(params)
+      )
+
     }
-  }, [filter])
+  }, [])
 
 
   React.useEffect(() => {
@@ -38,10 +45,8 @@ function App() {
       page: 1,
       limit: filter.limitView
     })
-    // console.log(queryString)
     navigate(`?${queryString}`)
-
-  }, [filter])
+  }, [filt])
 
   return (
     <div className='d-flex'>
