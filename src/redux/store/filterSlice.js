@@ -8,8 +8,6 @@ const initialState = {
   gcomp: "PlayStation",
   gplat: [],
   limitView: 10,
-  filters: '',
-  filt: {}
 }
 
 export const filterSlice = createSlice({
@@ -20,7 +18,6 @@ export const filterSlice = createSlice({
       state.id = action.payload.id
       state.sortProperty = action.payload.sortProperty
       state.order = action.payload.order
-      console.log(state.id, state.sortProperty, state.order)
     },
     selectGcomp: (state, action) => {
       if (state.gcomp !== action.payload) state.gplat = []
@@ -34,18 +31,21 @@ export const filterSlice = createSlice({
         uniqueElements.add(action.payload);
       }
       state.gplat = Array.from(uniqueElements);
-      console.log(state.gplat);
+      // console.log(state.gplat);
     },
     setLimitView: (state, action) => {
       state.limitView += action.payload
-      console.log(state.limitView)
     },
     setSearch: (state, action) => {
       state.search = action.payload
     },
     setFilters: (state, action) => {
-      state.filt = action.payload
-      console.log(state.filt)
+      state.id = action.payload.id
+      state.sortProperty = action.payload.sortProperty
+      state.order = action.payload.order
+      if (action.payload.gcomp) state.gcomp = action.payload.gcomp;
+      if (action.payload.gplat) state.gplat = action.payload.gplat;
+      console.log(action.payload)
     },
 
   },

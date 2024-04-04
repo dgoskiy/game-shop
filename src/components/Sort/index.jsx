@@ -1,19 +1,18 @@
-import React from 'react' 
+import React from 'react'
 import s from './index.module.css'
 import { useSelector, useDispatch } from 'react-redux'
 import { sortByAmount, selectGplat } from '../../redux/store/filterSlice'
-//1.5
-export const Sort = () => { 
+export const list = [
+    { name: "Содержание" },
+    { name: "По алфавиту", sortProperty: "name", order: "asc" },
+    { name: "Цена ↑", sortProperty: "cost", order: "asc" },
+    { name: "Цена ↓", sortProperty: "cost", order: "desc" },
+]
+export const Sort = () => {
     const { gcomp, id } = useSelector(state => state.filter)
     const sort = useSelector((state) => state.filter)
     const dispatch = useDispatch()
     const [open, setOpen] = React.useState(false)
-    const list = [
-        { name: "Содержание" }, 
-        { name: "По алфавиту", sortProperty: "name", order: "asc" },
-        { name: "Цена ↑", sortProperty: "cost", order: "asc" },
-        { name: "Цена ↓", sortProperty: "cost", order: "desc" },
-    ]
     const listPlatform = {
         PlayStation: ["PS4", "PS5"],
         Xbox: ["Xbox One", "Xbox X | S", "PC"],
@@ -24,7 +23,7 @@ export const Sort = () => {
             <div className='d-flex'>
                 <button className={s.btn} onClick={() => {
                     setOpen(!open)
-                    console.log(sort)
+                    // console.log(sort)
                 }}>{list[id].name} </button>
             </div>
             {open && (<div className="container_sort">
