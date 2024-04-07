@@ -31,7 +31,6 @@ export const filterSlice = createSlice({
         uniqueElements.add(action.payload);
       }
       state.gplat = Array.from(uniqueElements);
-      // console.log(state.gplat);
     },
     setLimitView: (state, action) => {
       state.limitView += action.payload
@@ -43,10 +42,8 @@ export const filterSlice = createSlice({
       state.id = action.payload.id
       state.sortProperty = action.payload.sortProperty
       state.order = action.payload.order
-      console.log(action.payload)
       if (action.payload.gameCompany) state.gcomp = action.payload.gameCompany;
       if (action.payload.gamePlatform) state.gplat = action.payload.gamePlatform;
-      console.log(action.payload)
     },
 
   },
