@@ -7,6 +7,9 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
+  .active {
+    color: #4caf50;
+  }
   
   .toggle_switch-inner {
     width: 30px;
