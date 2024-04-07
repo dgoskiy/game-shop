@@ -12,14 +12,24 @@ export const Sort = () => {
     const { gcomp, id } = useSelector(state => state.filter)
     const dispatch = useDispatch()
     const [open, setOpen] = React.useState(false)
+    const sortRef = React.useRef()
 
     const listPlatform = {
         PlayStation: ["PS4", "PS5"],
         Xbox: ["Xbox One", "Xbox X | S", "PC"],
     }
+    React.useEffect(() => {
+        document.body.addEventListener('click', event => {
+            if (!event.composedPath().includes(sortRef.current)) {
+                setOpen(false)
+                console.log("outside")
+            }
+        })
+
+    }, [])
 
     return (
-        <div className={`${s.sort} sticky-top`}>
+        <div ref={sortRef} className={`${s.sort} sticky-top`}>
             <div className='d-flex'>
                 <button className={s.btn} onClick={() => {
                     setOpen(!open)

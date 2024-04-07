@@ -19,7 +19,6 @@ const Games = (props) => {
   return (
     <div className='w-100'>
       <input onChange={testDebounce} type="text" />
-
       <div className={s.games_container}>
         {props.data.map(item => (
           <div ref={ref} className={s.games_item} key={item.id}>
