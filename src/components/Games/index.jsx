@@ -1,5 +1,6 @@
 import React from 'react'
 import s from './index.module.css';
+import ToggleSwitch from './ToggleSwitch';
 import { useDispatch } from 'react-redux'
 import { setLimitView, setSearch } from '../../redux/store/filterSlice'
 import debounce from 'lodash.debounce';
@@ -18,6 +19,7 @@ const Games = (props) => {
   }, [inView])
   return (
     <div className='w-100'>
+
       <input onChange={testDebounce} type="text" />
       <div className={s.games_container}>
         {props.data.map(item => (
@@ -28,7 +30,12 @@ const Games = (props) => {
             <div className={s.body}>
               <div className={s.forplay}>{item.forplay}</div>
               <div className={s.name}>{item.name}</div>
-              <div className={s.cost}>{item.cost} ₴</div>
+              <div className={s.niz}>
+                <div className={s.niz_child}>
+                  <div className={s.cost}>{item.cost} ₴</div>
+                  <ToggleSwitch />
+                </div>
+              </div>
             </div>
           </div>
         ))}

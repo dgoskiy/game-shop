@@ -64,7 +64,11 @@ function Main() {
       <div className={`${s.content_container} custom_scroll d-flex`}>
         <Games data={items} />
         <div>
-          <a href="/cart">Cart</a>
+          <a className={s.cart} href="/cart" >
+            <div>{1}</div>
+            <div>|</div>
+            <div>{2}</div>
+          </a>
           <Sort />
         </div>
       </div>

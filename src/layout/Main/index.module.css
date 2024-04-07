@@ -2,3 +2,20 @@
     background-color: rgb(28, 28, 28);
     width: 100%;
 }
+
+.cart {
+    margin: 15px;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: inherit;
+
+}

@@ -23,6 +23,10 @@
 .body {
     color: white;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 45%;
 }
 
 .forplay {
@@ -34,10 +38,22 @@
     font-size: 17px;
 }
 
-.loading{
+.loading {
     color: #000;
     width: 100%;
     height: 500px;
     background-color: rgba(128, 128, 128, 0.125);
-    
+
+}
+
+.niz {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.niz_child {
+    display: flex;
+    justify-content: space-evenly;
 }

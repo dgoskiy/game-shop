@@ -1,0 +1,32 @@
+.toggle_switch {
+    width: 60px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #ddd;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle_switch-inner {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle_switch.on {
+    background-color: #4caf50;
+  }
+  
+  .toggle_switch.on .toggle_switch-inner {
+    transform: translateX(30px);
+  }
+  
+  .toggle_switch.off .toggle_switch-inner {
+    transform: translateX(0);
+  }
