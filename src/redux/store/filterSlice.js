@@ -43,8 +43,9 @@ export const filterSlice = createSlice({
       state.id = action.payload.id
       state.sortProperty = action.payload.sortProperty
       state.order = action.payload.order
-      if (action.payload.gcomp) state.gcomp = action.payload.gcomp;
-      if (action.payload.gplat) state.gplat = action.payload.gplat;
+      console.log(action.payload)
+      if (action.payload.gameCompany) state.gcomp = action.payload.gameCompany;
+      if (action.payload.gamePlatform) state.gplat = action.payload.gamePlatform;
       console.log(action.payload)
     },
 

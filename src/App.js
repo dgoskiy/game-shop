@@ -8,24 +8,24 @@ import axios from 'axios'
 import qs from "qs"
 import { setFilters } from './redux/store/filterSlice'
 import { useNavigate } from 'react-router-dom'
-import { list } from './components/Sort/index'
 
 
 function App() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const filter = useSelector((state) => state.filter)
-  // const filt = useSelector((state) => state.filter.filt)
-  const [items, setItems] = React.useState([]);
+  const [items, setItems] = React.useState([])
+  const isSearch = React.useRef(false)
+  const isMounted = React.useRef(false)
 
   React.useEffect(() => {
     if (window.location.search) {
       const params = qs.parse(window.location.search.substring(1))
-      // console.log({ ...params })
-      dispatch(setFilters(params))
-      // const sort = list.find(obj => obj.sortProperty === params.sortProperty)
+      dispatch(setFilters({
+        ...params
+      }))
+      isSearch.current = true
     }
-    // }, [filter.id, filter.sortProperty, filter.order, filter.gcomp, filter.gplat])
   }, [])
 
 
@@ -37,17 +37,25 @@ function App() {
   }
   React.useEffect(() => {
     window.scrollTo(0, 0)
-  }, [filter.id, filter.sortProperty, filter.order, filter.gcomp, filter.gplat])
+    if (!isSearch.current) {
+      fetchFiltr()
+    }
+    isSearch.current = false
+  }, [filter.id, filter.sortProperty, filter.order, filter.gcomp, filter.gplat, filter.limitView, filter.search])
 
   React.useEffect(() => {
-    const queryString = qs.stringify({
-      id: filter.id,
-      sortBy: filter.sortProperty,
-      order: filter.order,
-      gameCompany: filter.gcomp,
-      gamePlatform: filter.gplat,
-    })
-    navigate(`?${queryString}`)
+    if (isMounted.current) {
+
+      const queryString = qs.stringify({
+        id: filter.id,
+        sortBy: filter.sortProperty,
+        order: filter.order,
+        gameCompany: filter.gcomp,
+        gamePlatform: filter.gplat,
+      })
+      navigate(`?${queryString}`)
+    }
+    isMounted.current = true
   }, [filter.id, filter.sortBy, filter.order, filter.gcomp, filter.gplat])
 
   return (
