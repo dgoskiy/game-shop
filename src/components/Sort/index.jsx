@@ -22,7 +22,6 @@ export const Sort = () => {
         document.body.addEventListener('click', event => {
             if (!event.composedPath().includes(sortRef.current)) {
                 setOpen(false)
-                console.log("outside")
             }
         })
 
