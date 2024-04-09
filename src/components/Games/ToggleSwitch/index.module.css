@@ -1,66 +1,77 @@
 .toggle_switch {
-    width: 60px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: #ddd;
-    position: relative;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .active {
-    color: #4caf50;
-  }
-  
-  .toggle_switch-inner {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #fff;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: transform 0.3s ease;
-  }
-  
-  .toggle_switch.on {
-    background-color: #4caf50;
-  }
-  
-  .toggle_switch.on .toggle_switch-inner {
-    transform: translateX(30px);
-  }
-  
-  .toggle_switch.off .toggle_switch-inner {
-    transform: translateX(0);
-  }
+  width: 60px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #ddd;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
-  .DD {
-    display: flex;
-    justify-content: space-evenly;
-    cursor: pointer;
-  }
 
-  .niz {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+
+.toggle_switch-inner {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease;
+}
+
+.toggle_switch.on {
+  background-color: #4caf50;
+}
+
+.toggle_switch.on .toggle_switch-inner {
+  transform: translateX(30px);
+}
+
+.toggle_switch.off .toggle_switch-inner {
+  transform: translateX(0);
+}
+
+.DD {
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.dd_child {
+  padding: 2px 8px
+}
+
+.active {
+  color: #4caf50;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.niz {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .niz_child {
-    padding-top: 5px;
-    display: flex;
-    justify-content: space-evenly;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .add {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    transition-duration: 0.4s;
-    border-radius: 5px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
 }

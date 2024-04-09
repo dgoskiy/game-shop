@@ -49,6 +49,6 @@ export const filterSlice = createSlice({
   },
 })
 
-export const { sortByAmount, selectGcomp, selectGplat, setLimitView, setSearch, setFilters } = filterSlice.actions
+export const { sortByAmount, selectGcomp, selectGplat, setLimitView, setSearch, setFilters} = filterSlice.actions
 
 export default filterSlice.reducer
