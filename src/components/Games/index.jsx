@@ -29,7 +29,7 @@ const Games = (props) => {
             <div className={s.body}>
               <div className={s.forplay}>{item.forplay}</div>
               <div className={s.name}>{item.name}</div>
-                <ToggleSwitch data={item} />
+              <ToggleSwitch data={item} />
             </div>
           </div>
         ))}

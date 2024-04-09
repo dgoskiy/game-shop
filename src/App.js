@@ -7,8 +7,8 @@ import Cart from './layout/Cart';
 export const App = () => {
     return (
         <Routes>
-            <Route path="/" element={<Main/>}/>
-            <Route path="/cart" element={<Cart/>}/>
+            <Route path="/" element={<Main />} />
+            <Route path="cart" element={<Cart />} />
         </Routes>
     )
 }

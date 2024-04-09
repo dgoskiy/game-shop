@@ -1,37 +1,63 @@
+* {
+  background-color: rgb(33, 37, 41);
+}
+
+.container {
+  display: flex;
+}
+
+.side {
+  padding: 20px;
+}
+
+.cart {
+  color: #fff;
+}
+
 .cartItem {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .itemDetails {
-    flex: 1;
-  }
-  
-  .quantityControls {
-    display: flex;
-    align-items: center;
-  }
-  
-  .quantityButton {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
-  .totalPrice {
-    font-weight: bold;
-  }
-  
-  .deleteButton {
-    background-color: #f44336;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.gamesImg {
+  width: 100px;
+  aspect-ratio: 5/7;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.cartDetails {
+  padding: 20px;
+}
+
+.cartDD {
+  color: #7e7e7e;
+}
+
+
+.cartCount {
+  display: flex;
+  padding: 20px;
+}
+
+.plus {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.count {
+  padding: 20px;
+}
+
+.minus {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.cartDel {
+  padding: 20px;
+  cursor: pointer;
+}

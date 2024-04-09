@@ -19,12 +19,16 @@ export const Sort = () => {
         Xbox: ["Xbox One", "Xbox X | S", "PC"],
     }
     React.useEffect(() => {
-        document.body.addEventListener('click', event => {
+        const handleClickOutside = (event) => {
             if (!event.composedPath().includes(sortRef.current)) {
                 setOpen(false)
+                console.log("outside")
             }
-        })
-
+        }
+        document.body.addEventListener('click', handleClickOutside)
+        return () => {
+            document.body.removeEventListener('click', handleClickOutside)
+        }
     }, [])
 
     return (

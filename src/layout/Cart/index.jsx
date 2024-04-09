@@ -1,33 +1,39 @@
 import React from 'react';
 import s from './index.module.css';
 import { useDispatch, useSelector } from 'react-redux'
-import { addItem } from '../../redux/store/cartSlice'
-
+import { addItem, delItem, minusItem } from '../../redux/store/cartSlice'
+import { Link } from "react-router-dom"
 
 const CartItem = () => {
   const dispatch = useDispatch()
   const { items } = useSelector(state => state.cart)
 
   return (
-    <div>
-      <a href="/">Главная</a>
-
-      {JSON.stringify(items)}
-
-      <div className={s.cartItem}>
-        <div className={s.itemDetails}>
-          <p>name</p>
-          <p>subtext</p>
-        </div>
-        <div className={s.quantityControls}>
-          <button className={s.quantityButton}>-</button>
-          <span>quantity</span>
-          <button className={s.quantityButton}>+</button>
-        </div>
-        <p className={s.totalPrice}>Total: $quantity * price</p>
-        <button className={s.deleteButton}>Delete</button>
+    <div className={s.container}>
+      <div className={s.side}>
+        <Link to="/">Главная</Link>
       </div>
-    </div>
+      <div className={s.cart}>
+        {items.map(obj =>
+          <div key={obj.id} className={s.cartItem}>
+            <div className={s.gamesImg}
+              style={{ backgroundImage: `url(${obj.img})` }}>
+            </div>
+            <div className={s.cartDetails}>
+              <div className={s.cartName}>{obj.name}</div>
+              <div className={s.cartDD}>{obj.dd ? 'Цифровая версия игры' : 'Диск'}</div>
+            </div>
+            <div className={s.cartCost}>{obj.cost * obj.count}</div>
+            <div className={s.cartCount}>
+              <div onClick={() => { dispatch(minusItem(obj)) }} className={s.minus}>-</div>
+              <div className={s.count}>{obj.count}</div>
+              <div onClick={() => { dispatch(addItem(obj)) }} className={s.plus}>+</div>
+              <div onClick={() => { dispatch(delItem(obj)) }} className={s.cartDel}>Удалить</div>
+            </div>
+
+          </div>)}
+      </div>
+    </div >
   );
 };
 

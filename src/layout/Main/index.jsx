@@ -2,6 +2,7 @@ import React from 'react'
 import Games from '../../components/Games'
 import Sidebar from '../../components/Sidebar'
 import Sort from '../../components/Sort'
+import { Link } from 'react-router-dom'
 import s from './index.module.css'
 import { useDispatch, useSelector } from 'react-redux'
 import axios from 'axios'
@@ -67,11 +68,11 @@ function Main() {
       <div className={`${s.content_container} custom_scroll d-flex`}>
         <Games data={items} />
         <div>
-          <a className={s.cart} href="/cart" >
+          <Link to="/cart" className={s.cart}>
             <div>{cart.items.reduce((ac, obj) => ac + obj.count, 0)}</div>
             <div>|</div>
             <div>{cart.items.reduce((ac, obj) => ac + obj.cost * obj.count, 0)}</div>
-          </a>
+          </Link>
           <Sort />
         </div>
       </div>

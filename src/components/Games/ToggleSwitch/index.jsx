@@ -13,8 +13,10 @@ const ToggleSwitch = (props) => {
   const onClickAdd = () => {
     const item = {
       id: props.data.id,
+      name: props.data.name,
       cost: props.data.cost,
-      dd: dd ? "digit" : "disk"
+      dd: dd,
+      img: props.data.img,
 
     }
     dd ? setDigit(digit + 1) : setDisk(disk + 1)
@@ -27,7 +29,7 @@ const ToggleSwitch = (props) => {
         <div className={`${s.dd_child} ${dd ? s.active : ""}`} onClick={() => setDD(true)}>digit{digit > 0 && ` ${digit}`}</div>
       </div>
       <div className={s.niz_child}>
-        <div className={s.cost}>{props.data.cost} ₴</div>
+        <div className={s.cost}>{props.data.cost}</div>
         <button onClick={onClickAdd} className={s.add}>Add</button>
       </div>
     </div>
