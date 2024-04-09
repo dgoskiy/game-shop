@@ -4,7 +4,6 @@ import ToggleSwitch from './ToggleSwitch';
 import { useDispatch } from 'react-redux'
 import { setLimitView, setSearch } from '../../redux/store/filterSlice'
 import debounce from 'lodash.debounce';
-
 import { useInView } from 'react-intersection-observer';
 const Games = (props) => {
   const dispatch = useDispatch()

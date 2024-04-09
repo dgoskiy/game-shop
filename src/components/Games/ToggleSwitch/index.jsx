@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import s from './index.module.css';
 import { useDispatch } from 'react-redux'
 import { addItem } from '../../../redux/store/cartSlice'
-import { test } from '../../../redux/store/filterSlice'
 
 
 const ToggleSwitch = (props) => {

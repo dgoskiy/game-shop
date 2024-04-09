@@ -10,10 +10,12 @@ import { setFilters } from '../../redux/store/filterSlice'
 import { useNavigate } from 'react-router-dom'
 
 
+
 function Main() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const filter = useSelector((state) => state.filter)
+  const cart = useSelector((state) => state.cart)
   const [items, setItems] = React.useState([])
   const isSearch = React.useRef(false)
   const isMounted = React.useRef(false)
@@ -58,6 +60,7 @@ function Main() {
     isMounted.current = true
   }, [filter.id, filter.sortBy, filter.order, filter.gcomp, filter.gplat])
 
+
   return (
     <div className='d-flex'>
       <Sidebar data={items} />
@@ -65,9 +68,9 @@ function Main() {
         <Games data={items} />
         <div>
           <a className={s.cart} href="/cart" >
-            <div>{1}</div>
+            <div>{cart.items.reduce((ac, obj) => ac + obj.count, 0)}</div>
             <div>|</div>
-            <div>{2}</div>
+            <div>{cart.items.reduce((ac, obj) => ac + obj.cost * obj.count, 0)}</div>
           </a>
           <Sort />
         </div>
