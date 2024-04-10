@@ -34,6 +34,7 @@ const Games = (props) => {
           </div>
         ))}
       </div>
+      {/* <div className={s.loading}></div> */}
     </div>
   )
 }
