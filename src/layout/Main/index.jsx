@@ -5,7 +5,6 @@ import Sort from '../../components/Sort'
 import { Link } from 'react-router-dom'
 import s from './index.module.css'
 import { useDispatch, useSelector } from 'react-redux'
-import axios from 'axios'
 import qs from "qs"
 import { setFilters } from '../../redux/store/filterSlice'
 import { useNavigate } from 'react-router-dom'
@@ -18,6 +17,7 @@ function Main() {
   const dispatch = useDispatch();
   const filter = useSelector((state) => state.filter)
   const cart = useSelector((state) => state.cart)
+  const { id, sortProperty, order, gcomp, gplat, page, search, sortBy } = useSelector((state) => state.filter)
   const { items, status } = useSelector(selectGameData);
   const isSearch = React.useRef(false)
   const isMounted = React.useRef(false)
@@ -41,22 +41,22 @@ function Main() {
       getGame()
     }
     isSearch.current = false
-  }, [filter.id, filter.sortProperty, filter.order, filter.gcomp, filter.gplat, filter.limitView, filter.search])
+  }, [id, sortProperty, order, gcomp, gplat, page, search])
 
   React.useEffect(() => {
     if (isMounted.current) {
 
       const queryString = qs.stringify({
-        id: filter.id,
-        sortBy: filter.sortProperty,
-        order: filter.order,
-        gameCompany: filter.gcomp,
-        gamePlatform: filter.gplat,
+        id: id,
+        sortBy: sortProperty,
+        order: order,
+        gameCompany: gcomp,
+        gamePlatform: gplat,
       })
       navigate(`?${queryString}`)
     }
     isMounted.current = true
-  }, [filter.id, filter.sortBy, filter.order, filter.gcomp, filter.gplat])
+  }, [id, sortBy, order, gcomp, gplat])
 
 
   return (
@@ -64,7 +64,7 @@ function Main() {
       <Sidebar data={items} />
       <div className={`${s.content_container} custom_scroll d-flex`}>
         <Games data={items} />
-        <div>{}</div>
+        <div>{ }</div>
         <div>
           <Link to="/cart" className={s.cart}>
             <div>{cart.items.reduce((ac, obj) => ac + obj.count, 0)}</div>

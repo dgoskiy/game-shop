@@ -14,7 +14,7 @@ const Games = (props) => {
     dispatch(setSearch(event.target.value))
   }, 1000)
   React.useEffect(() => {
-    inView && dispatch(setLimitView(10))
+    inView && dispatch(setLimitView(1))
   }, [inView])
   return (
     <div className='w-100'>
