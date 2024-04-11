@@ -5,6 +5,8 @@ import axios from 'axios'
 export const fetchGame = createAsyncThunk('game/fetchGameStatus', async (params) => {
 
   const filter = params;
+  window.scrollTo(0, 0)
+
   const { data } = await axios.get(
     `https://65eb6f1043ce16418933d917.mockapi.io/api/game_shop/game?sortBy=${filter.sortProperty !== '' ? filter.sortProperty : ""}&order=${filter.order !== '' ? filter.order : ""}${filter.gcomp !== "" ? "&gameCompany=" + filter.gcomp : ""}${filter.gplat.length !== 0 ? "&gamePlatform=" + filter.gplat.join("|") : ""}${filter.search !== "" ? "&name=" + filter.search : ""}&page=${filter.page}&limit=10`
   );

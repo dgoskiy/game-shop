@@ -48,7 +48,7 @@ function Main() {
 
       const queryString = qs.stringify({
         id: id,
-        sortBy: sortProperty,
+        sortProperty: sortProperty,
         order: order,
         gameCompany: gcomp,
         gamePlatform: gplat,
