@@ -4,9 +4,9 @@ import { useSelector, useDispatch } from 'react-redux'
 import { sortByAmount, selectGplat } from '../../redux/store/filterSlice'
 export const list = [
     { name: "Содержание" },
-    { name: "По алфавиту", sortProperty: "name", order: "asc" },
-    { name: "Цена ↑", sortProperty: "cost", order: "asc" },
-    { name: "Цена ↓", sortProperty: "cost", order: "desc" },
+    { name: "По алфавиту", sortBy: "name", order: "asc" },
+    { name: "Цена ↑", sortBy: "cost", order: "asc" },
+    { name: "Цена ↓", sortBy: "cost", order: "desc" },
 ]
 export const Sort = () => {
     const { gcomp, id } = useSelector(state => state.filter)
@@ -42,7 +42,7 @@ export const Sort = () => {
                 {list.map((item, i) => i !== 0 && (
                     <li key={i} onClick={() => {
                         setOpen(!open);
-                        dispatch(sortByAmount({ id: i, sortProperty: item.sortProperty, order: item.order }))
+                        dispatch(sortByAmount({ id: i, sortBy: item.sortBy, order: item.order }))
                     }} className={`${s.item} dropdown-item`}>{item.name}</li>
                 ))}
             </div>)}

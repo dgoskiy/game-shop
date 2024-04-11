@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
   id: 0,
   search: "",
-  sortProperty: "",
+  sortBy: "",
   order: "",
   gcomp: "PlayStation",
   gplat: [],
@@ -17,7 +17,7 @@ export const filterSlice = createSlice({
   reducers: {
     sortByAmount: (state, action) => {
       state.id = action.payload.id
-      state.sortProperty = action.payload.sortProperty
+      state.sortBy = action.payload.sortBy
       state.order = action.payload.order
       state.page = 1
     },
@@ -46,7 +46,7 @@ export const filterSlice = createSlice({
     },
     setFilters: (state, action) => {
       state.id = action.payload.id
-      state.sortProperty = action.payload.sortProperty
+      state.sortBy = action.payload.sortBy
       state.order = action.payload.order
       if (action.payload.gameCompany) state.gcomp = action.payload.gameCompany;
       if (action.payload.gamePlatform) state.gplat = action.payload.gamePlatform;

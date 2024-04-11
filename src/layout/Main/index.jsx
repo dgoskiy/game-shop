@@ -17,7 +17,7 @@ function Main() {
   const dispatch = useDispatch();
   const filter = useSelector((state) => state.filter)
   const cart = useSelector((state) => state.cart)
-  const { id, sortProperty, order, gcomp, gplat, page, search, sortBy } = useSelector((state) => state.filter)
+  const { id, order, gcomp, gplat, page, search, sortBy } = useSelector((state) => state.filter)
   const { items, status } = useSelector(selectGameData);
   const isSearch = React.useRef(false)
   const isMounted = React.useRef(false)
@@ -41,14 +41,14 @@ function Main() {
       getGame()
     }
     isSearch.current = false
-  }, [id, sortProperty, order, gcomp, gplat, page, search])
+  }, [id, sortBy, order, gcomp, gplat, page, search])
 
   React.useEffect(() => {
     if (isMounted.current) {
 
       const queryString = qs.stringify({
         id: id,
-        sortProperty: sortProperty,
+        sortBy: sortBy,
         order: order,
         gameCompany: gcomp,
         gamePlatform: gplat,
