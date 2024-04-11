@@ -30,7 +30,6 @@ const CartItem = () => {
               <div onClick={() => { dispatch(addItem(obj)) }} className={s.plus}>+</div>
               <div onClick={() => { dispatch(delItem(obj)) }} className={s.cartDel}>Удалить</div>
             </div>
-
           </div>)}
       </div>
     </div >

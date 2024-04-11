@@ -19,9 +19,11 @@ export const filterSlice = createSlice({
       state.id = action.payload.id
       state.sortProperty = action.payload.sortProperty
       state.order = action.payload.order
+      state.page = 1
     },
     selectGcomp: (state, action) => {
       if (state.gcomp !== action.payload) state.gplat = []
+      state.page = 1
       state.gcomp = action.payload
     },
     selectGplat: (state, action) => {
@@ -31,12 +33,15 @@ export const filterSlice = createSlice({
       } else {
         uniqueElements.add(action.payload);
       }
+      state.page = 1
+
       state.gplat = Array.from(uniqueElements);
     },
     setLimitView: (state, action) => {
       state.page += action.payload
     },
     setSearch: (state, action) => {
+      state.page = 1
       state.search = action.payload
     },
     setFilters: (state, action) => {
@@ -45,6 +50,7 @@ export const filterSlice = createSlice({
       state.order = action.payload.order
       if (action.payload.gameCompany) state.gcomp = action.payload.gameCompany;
       if (action.payload.gamePlatform) state.gplat = action.payload.gamePlatform;
+      state.page = 1
     },
 
   },

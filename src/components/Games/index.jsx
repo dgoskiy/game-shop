@@ -1,12 +1,15 @@
 import React from 'react'
 import s from './index.module.css';
 import ToggleSwitch from './ToggleSwitch';
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { setLimitView, setSearch } from '../../redux/store/filterSlice'
+import { selectGameData } from '../../redux/store/gameSlice'
 import debounce from 'lodash.debounce';
 import { useInView } from 'react-intersection-observer';
 const Games = (props) => {
   const dispatch = useDispatch()
+  const { status } = useSelector(selectGameData);
+
   const { ref, inView } = useInView({
     treshold: 0.5,
   })
@@ -34,7 +37,7 @@ const Games = (props) => {
           </div>
         ))}
       </div>
-      {/* <div className={s.loading}></div> */}
+      {/* <div className={status === "loading" ? s.loading : ""}></div> */}
     </div>
   )
 }

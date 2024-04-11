@@ -63,8 +63,7 @@ function Main() {
     <div className='d-flex'>
       <Sidebar data={items} />
       <div className={`${s.content_container} custom_scroll d-flex`}>
-        <Games data={items} />
-        <div>{ }</div>
+          <Games data={items} />
         <div>
           <Link to="/cart" className={s.cart}>
             <div>{cart.items.reduce((ac, obj) => ac + obj.count, 0)}</div>

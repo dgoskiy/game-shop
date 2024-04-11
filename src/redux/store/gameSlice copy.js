@@ -3,17 +3,15 @@ import axios from 'axios'
 
 
 export const fetchGame = createAsyncThunk('game/fetchGameStatus', async (params) => {
-
   const filter = params;
   const { data } = await axios.get(
     `https://65eb6f1043ce16418933d917.mockapi.io/api/game_shop/game?sortBy=${filter.sortProperty !== '' ? filter.sortProperty : ""}&order=${filter.order !== '' ? filter.order : ""}${filter.gcomp !== "" ? "&gameCompany=" + filter.gcomp : ""}${filter.gplat.length !== 0 ? "&gamePlatform=" + filter.gplat.join("|") : ""}${filter.search !== "" ? "&name=" + filter.search : ""}&page=${filter.page}&limit=10`
   );
-  return { data, params };
+  return data;
 })
 
 const initialState = {
   items: [],
-  params: [],
   status: 'loading', // loading | success | error
 }
 
@@ -30,33 +28,19 @@ export const gameSlice = createSlice({
       .addCase(fetchGame.pending, (state) => {
         state.status = "loading"
         // state.items = []
-
       })
       .addCase(fetchGame.fulfilled, (state, action) => {
-        const delPage = (obj) => {
-          const Obj = { ...obj };
-          delete Obj.page;
-          return Obj;
-        };
-        const obj1 = JSON.stringify(delPage(state.params))
-        console.log(obj1)
-        const obj2 = JSON.stringify(delPage(action.payload.params))
-        console.log(obj2)
-        if (obj1 === obj2) {
-          // state.params = { ...state.params, page: 1 }
-          state.items = state.items.concat(action.payload.data)
+        if (state.items.length > 0) {
+          state.items = state.items.concat(action.payload);
+          console.log('concat')
         } else {
-          state.items = action.payload.data
+          state.items = action.payload;
         }
         state.status = "success"
-        // state.params = { ...action.payload.params, page: 1 }
-        state.params = action.payload.params
-
-
       })
       .addCase(fetchGame.rejected, (state) => {
         state.status = "error"
-        // state.items = []
+        state.items = []
       })
   },
 
