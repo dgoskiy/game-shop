@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
-import filterReducer from './filterSlice'
-import cartReducer from './cartSlice'
-import gameReducer from './gameSlice'
+import filterReducer from './slices/filterSlice'
+import cartReducer from './slices/cartSlice'
+import gameReducer from './slices/gameSlice'
 
 export const store = configureStore({
     reducer: {

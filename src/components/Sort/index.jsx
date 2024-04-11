@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './index.module.css'
 import { useSelector, useDispatch } from 'react-redux'
-import { sortByAmount, selectGplat } from '../../redux/store/filterSlice'
+import { sortByAmount, selectGplat } from '../../redux/store/slices/filterSlice'
 export const list = [
     { name: "Содержание" },
     { name: "По алфавиту", sortBy: "name", order: "asc" },

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Main from './layout/Main';
-import Cart from './layout/Cart';
+import Cart from './components/Cart';
 
 
 export const App = () => {

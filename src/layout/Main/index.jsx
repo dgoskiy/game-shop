@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 import s from './index.module.css'
 import { useDispatch, useSelector } from 'react-redux'
 import qs from "qs"
-import { setFilters } from '../../redux/store/filterSlice'
+import { setFilters } from '../../redux/store/slices/filterSlice'
 import { useNavigate } from 'react-router-dom'
-import { fetchGame, selectGameData } from '../../redux/store/gameSlice'
+import { fetchGame, selectGameData } from '../../redux/store/slices/gameSlice'
 
 
 

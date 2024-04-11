@@ -1,7 +1,7 @@
 import React from 'react'
 import s from './index.module.css'
 import { /* useSelector, */ useDispatch } from 'react-redux'
-import { selectGcomp, /* selectGplat */ } from '../../redux/store/filterSlice'
+import { selectGcomp, /* selectGplat */ } from '../../redux/store/slices/filterSlice'
 
 
 const Sidebar = () => {

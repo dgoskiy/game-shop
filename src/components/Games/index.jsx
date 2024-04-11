@@ -2,8 +2,8 @@ import React from 'react'
 import s from './index.module.css';
 import ToggleSwitch from './ToggleSwitch';
 import { useDispatch, useSelector } from 'react-redux'
-import { setLimitView, setSearch } from '../../redux/store/filterSlice'
-import { selectGameData } from '../../redux/store/gameSlice'
+import { setLimitView, setSearch } from '../../redux/store/slices/filterSlice'
+import { selectGameData } from '../../redux/store/slices/gameSlice'
 import debounce from 'lodash.debounce';
 import { useInView } from 'react-intersection-observer';
 const Games = (props) => {
