@@ -1,6 +1,3 @@
-* {
-  background-color: rgb(33, 37, 41);
-}
 
 .container {
   display: flex;
@@ -10,9 +7,6 @@
   padding: 20px;
 }
 
-.cart {
-  color: #fff;
-}
 
 .cartItem {
   display: flex;

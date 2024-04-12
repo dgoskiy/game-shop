@@ -1,15 +1,21 @@
+
 .games_container {
-    margin: 8px;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
 }
 
 .games_item {
-    margin: 8px 0 8px 0;
     width: 150px;
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.games_item:hover {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .games_item_img {
@@ -26,7 +32,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 45%;
+    padding: 10px;
 }
 
 .forplay {
@@ -48,4 +54,8 @@
 
 .search {
     background-color: rgb(183, 183, 183);
+}
+
+.top {
+    text-decoration: none;
 }

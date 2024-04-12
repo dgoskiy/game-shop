@@ -12,11 +12,10 @@ import { fetchGame, selectGameData } from '../../redux/store/slices/gameSlice'
 
 
 
-function Main() {
+function Home() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const filter = useSelector((state) => state.filter)
-  const cart = useSelector((state) => state.cart)
   const { id, order, gcomp, gplat, page, search, sortBy } = useSelector((state) => state.filter)
   const { items, status } = useSelector(selectGameData);
   const isSearch = React.useRef(false)
@@ -61,15 +60,10 @@ function Main() {
 
   return (
     <div className='d-flex'>
-      <Sidebar data={items} />
+      {/* <Sidebar data={items} /> */}
       <div className={`${s.content_container} custom_scroll d-flex`}>
           <Games data={items} />
         <div>
-          <Link to="/cart" className={s.cart}>
-            <div>{cart.items.reduce((ac, obj) => ac + obj.count, 0)}</div>
-            <div>|</div>
-            <div>{cart.items.reduce((ac, obj) => ac + obj.cost * obj.count, 0)}</div>
-          </Link>
           <Sort />
         </div>
       </div>
@@ -77,4 +71,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;

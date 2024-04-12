@@ -2,7 +2,6 @@ import React from 'react';
 import s from './index.module.css';
 import { useDispatch, useSelector } from 'react-redux'
 import { addItem, delItem, minusItem } from '../../redux/store/slices/cartSlice'
-import { Link } from "react-router-dom"
 
 const CartItem = () => {
   const dispatch = useDispatch()
@@ -10,9 +9,6 @@ const CartItem = () => {
 
   return (
     <div className={s.container}>
-      <div className={s.side}>
-        <Link to="/">Главная</Link>
-      </div>
       <div className={s.cart}>
         {items.map(obj =>
           <div key={obj.id} className={s.cartItem}>

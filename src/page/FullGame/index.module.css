@@ -1,0 +1,23 @@
+.full_game {
+    color: white;
+    display: flex;
+}
+.game_img {
+    width: 300px;
+    aspect-ratio: 5/7;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+.name_game {
+    color: white
+    
+}
+.cost_game {
+    color: white
+    
+}
+.dd_game {
+    color: white
+    
+}

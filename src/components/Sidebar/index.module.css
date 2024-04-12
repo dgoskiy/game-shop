@@ -1,7 +1,7 @@
 .sidebar {
-    background-color: rgb(73, 73, 73);
     color: bisque;
     width: 284px;
+    background-color: rgba(255, 255, 255, 0.050);
 }
 
 .sidebar_item:hover {
@@ -9,6 +9,21 @@
     cursor: pointer;
 }
 
-.active{
+.active {
     background-color: rgba(0, 0, 0, 0.2);
+}
+
+.head {
+    cursor: pointer;
+    padding: 0 20px;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    width: 284px;
+    height: 110px;
+}
+
+.head_text {
+    display: flex;
+    align-items: center;
 }
