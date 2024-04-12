@@ -10,11 +10,12 @@ export const App = () => {
     return (
         <Routes>
             <Route path="/" element={<Mainlayout />} >
-                <Route index element={<Home />} />
-                <Route path="cart" element={<Cart />} />
-                <Route path="/game/:id/" element={<FullGame />} />
+            <Route index element={<Home />} />
+            <Route path="cart" element={<Cart />} />
+            <Route path="/game/:id/" element={<FullGame />} />
             </Route>
         </Routes>
     )
 }
 export default App
+

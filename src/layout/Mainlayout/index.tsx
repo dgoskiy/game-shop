@@ -9,7 +9,7 @@ const MainLayout = () => {
   return (
     <div className="d-flex">
       <Sidebar />
-      <div className={s.content}>
+      <div className={s.content} >
         <Header />
         <Outlet />
       </div>

@@ -31,11 +31,6 @@ const Games = (props) => {
                 <div className={s.name}>{item.name}</div>
               </div>
             </Link>
-
-
-
-
-
               <ToggleSwitch data={item} />
           </div>
         ))}
